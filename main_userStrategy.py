@@ -5,11 +5,13 @@
 import userStrategy.DualThrust as DualThrust
 from liveStrategyEngine.BaseLiveStrategyEngine import BaseLiveStrategyEngine
 from utils.helper import *
+from userStrategy import SimpleMA
 
 if __name__ == "__main__":
 
     # 请不要跑userStrategy里面的策略，因为历史数据现在是Mock出来的
 
+    strat = BaseLiveStrategyEngine( SimpleMA,datetime.datetime.now(), 0.1, 30, dailyExitTime="23:30:00")
 
     '''
     #simpleMA

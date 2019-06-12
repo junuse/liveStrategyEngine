@@ -5,7 +5,7 @@
 HUOBI = {
     "CNY_1":
         {
-            "ACCESS_KEY": "",
+            "ACCESS_KEY": "dbye2sf5t7-0f206bc3-5dec5ee7-36134",
             "SECRET_KEY": "",
             "SERVICE_API": "https://api.huobi.com/apiv3",
         },
